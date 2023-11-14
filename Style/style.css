@@ -1,0 +1,159 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Pacifico', sans-sarief;
+}
+h1{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Pacifico', sans-sarief;
+}
+
+header{
+    display: flex;
+    background-color: #911B1B;
+}
+
+header div{
+    width:  15%;
+}
+
+header div img{
+    width: 100%;
+}
+
+header nav menu {
+    list-style: none;
+    text-decoration: none;
+    color: #f8f8f8;
+    display: flex;
+}
+
+header nav menu li{
+    padding: 10% 25% 5% 25%;
+}
+
+header nav menu  li:nth-child(1){
+    padding-left: 100%;
+}
+
+.main_flex{
+    display: flex;
+    width: 100%;
+    height: auto;
+    height: 25em;
+    align-items: center;    
+    background-color: #FFC601;
+}
+
+.text_container{
+    font-size: 20px;
+    color: #A62927;
+    background-color: #FFC601;
+    padding-left: 5%;
+    font-family: 'Agbalumo', sans-serif;
+}
+
+.sideimage_container img{
+    height: 25em;
+}
+
+.ptoducts{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.productimage_container{
+    display: flex;
+    height: 20%;
+    align-items: center;
+    text-align: center;
+    height: 20%;
+}
+
+.productimage_container > div > img{
+    text-align: center;
+    font-size: 2em;
+}
+
+.product_image{
+    height: 20em;
+    width: 20%;
+}
+
+.allproduct_button{
+    text-align: center;
+}
+
+button{
+    border-radius: 15px;
+    height: 3em;
+    text-align: center;
+    background-color: #0D84FF;
+    color: #f8f8f8;
+    font-family: 'Roboto', sans-serif;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #4B9BEF;
+}
+
+.contact_form{
+    text-align: center;
+    background-color: #0e0e0e;
+    color: #f8f8f8;
+}
+
+.product_heading{
+    text-align: center;
+    font-size: 3em;
+}
+
+#zero_sugar{
+    height: 17em!important;
+}
+
+footer{
+    background-color: #0e0e0e;
+    color: #f8f8f8;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.contact_details{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.IInd_section{
+    display: flex;
+    background-color: #FF7701;
+}
+
+.sidetext{
+    display: grid;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+    justify-content: center;
+    text-align: center;
+}
+
+.sideimage{
+    height: 20em;
+}
+
+#sideimage{
+    height: 20em;
+    width: 30em;
+}
